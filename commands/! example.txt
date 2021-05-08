@@ -1,0 +1,14 @@
+const botInfo = require("../json/info.json")
+const modules = require("../modules.js")
+
+module.exports.run = (client, message, args) => {
+    
+}
+
+module.exports.info = {
+    name: "",
+    description: "",
+    aliases: [],
+    category: "",
+    permission: "Public"
+}
